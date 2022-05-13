@@ -7,7 +7,7 @@ const SimpleInput = (props) => {
     valueChangeHandler: nameChangeHandler,
     blurInputHandler: nameBlurHandler,
     reset: resetNameInput,
-  } = useInput((value) => value.trim().length !== "");
+  } = useInput((value) => value.trim() !== "");
 
   const {
     value: enteredEmail,
