@@ -58,6 +58,7 @@ const SimpleInput = (props) => {
         />
         {emailError && <p className="error-text">Please enter a valid email</p>}
       </div>
+
       <div className="form-actions">
         <button disabled={!formIsValid}>Submit</button>
       </div>
